@@ -1,0 +1,11 @@
+name: r_shiny_actuariat
+title:
+username:
+account: med-anis-bouaziz
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 4133554
+bundleId: 4599962
+url: https://med-anis-bouaziz.shinyapps.io/r_shiny_actuariat/
+when: 1621031236.4285
+lastSyncTime: 1621031236.4285
