@@ -5,7 +5,7 @@ account: med-anis-bouaziz
 server: shinyapps.io
 hostUrl: https://api.shinyapps.io/v1
 appId: 4133554
-bundleId: 4599962
+bundleId: 4602381
 url: https://med-anis-bouaziz.shinyapps.io/r_shiny_actuariat/
-when: 1621031236.4285
-lastSyncTime: 1621031236.4285
+when: 1621113419.02127
+lastSyncTime: 1621113419.02127

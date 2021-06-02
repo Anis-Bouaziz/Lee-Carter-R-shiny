@@ -28,17 +28,21 @@ UK_data <-
     sep = "",
     dec = "."
   )
+
 ## 1. header -------------------------------
 header <-
   dashboardHeader(
-    title = NULL,
+    
     titleWidth = 0,
+    disable = FALSE,
+    
     
     tags$li(
+      
       class = "dropdown",
       id = "logo",
       style = "font-size:20px",
-      
+
       tags$span(
         strong(
           'Tarification d’une rente viagère et projection de la mortalité par le modèle de Lee-Carter'
@@ -122,6 +126,7 @@ siderbar <-
 
 ## 3. body --------------------------------
 body <- dashboardBody(
+  tags$head(tags$link(rel="shortcut icon", href="favicon.png")),
   setBackgroundImage(src = 'bg.png', shinydashboard = TRUE) ,
   style = ('color:white'),
   tags$head(tags$style(
@@ -458,13 +463,11 @@ body <- dashboardBody(
     )
     
     
-    )
-  )
+    ))
 
 
 ui <-
-  dashboardPage(header, siderbar, body ,
-                useShinyjs(), skin = "green")
+  dashboardPage(title = "G1 4DS",header, siderbar, body , skin = "green")
 # Define server logic required to draw a histogram ----
 UK <-
   hmd.mx(
